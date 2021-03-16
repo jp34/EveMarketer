@@ -1,0 +1,11 @@
+{
+    "host": "127.0.0.1",
+    "port": 8000,
+    "callback": "http%3A%2F%2F127.0.0.1%3A8000%2Fauth%2F",
+    "client_id": "<Client ID from developers.eveonline.com>",
+    "state": "<String of random url safe characters>",
+    "challenge": "<String of random url safe characters>",
+    "verifier":  "<Url safe encoded challenge>",
+    "base_url": "https://login.eveonline.com/v2/oauth/",
+    "scope": "esi-assets.read_assets.v1"
+}
